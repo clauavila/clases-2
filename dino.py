@@ -10,9 +10,8 @@ pepito = Dino("Pepe",'azul')
 pepita = Dino('Pepa','rojo')
 pepite = Dino('Pepx')
 pepo = Dino(un_color='RoJO')
-
+pepex = Dino('pepex','amarillo')
 
 
 ## agregarle una propiedad color a la clase Dino, y que salude diciendo 
-# de que color es el dinosaurio.
-  
+# de que color es el dinosaurio.  

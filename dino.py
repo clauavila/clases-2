@@ -5,9 +5,10 @@ class Dino:
         self.nombre = un_nombre
         self.color = un_color
         print('Hola, soy un dinosaurio, me llamo', self.nombre,'y soy de color', self.color)
-    
+
+## aca instaciamos varios objetos tipo Dino
 pepito = Dino("Pepe",'azul')
-pepita = Dino('Pepa','rojo')
+pepita = Dino('Pepa','dorado')
 pepite = Dino('Pepx')
 pepo = Dino(un_color='RoJO')
 pepex = Dino('pepex','amarillo')

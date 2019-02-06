@@ -8,6 +8,16 @@ class persona:
         self.edad = la_edad
         self.hobbie= un_hobbie
         print('Hola, soy', self.nombre,'tengo', self.edad, 'y mi hobbie es', self.hobbie)
+    
+    def cumple_plusone(self):
+        self.edad += 1
+        return self.edad
 
-clau = persona('Clau','30','Panaderia')
+clau = persona('Clau',30,'Panaderia')
+fran= persona('Fran', 29, 'Tomar pilsen')
+clau.cumple_plusone()
+fran.cumple_plusone()
 
+
+### Agregar un metodo a la clase persona que se llame cumplea;os y que aumente la edad de la 
+##persona en un anho y retorne la edad nueva
